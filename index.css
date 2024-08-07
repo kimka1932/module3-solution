@@ -96,13 +96,14 @@ div{
 }
 #div6{
     display: block;
-    position: absolute;
-    top: 70px;
-    right: 882px;
+    position: relative;
+    /*top: 70px;*/
+    left: 13px;
+    bottom: 25px;
     color: white;
     background-color: black;
     opacity: .8;
-    width: 253px;
+    width: 251px;
 }
 
  /*md*/
