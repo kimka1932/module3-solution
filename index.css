@@ -1,0 +1,137 @@
+div{
+    display: inline;
+}
+#bs-example-navbar-collapse-1{
+    display: inline;
+}
+.navbar-default{
+    background-color: white;
+    border-radius: 0px;
+}
+#body{
+    font-family: Arial, Helvetica, sans-serif;
+     background-color:rgba(85, 85, 85, 0.559);
+}
+ #a2{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blue;
+    font-size: larger;
+    margin-right: 300px;
+}
+.a{
+    text-decoration: none;
+    text-align: center;
+
+}
+#a3{
+    text-decoration: none;
+    text-align: center;
+
+}
+#div1{
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+    margin-left: 25px;
+}
+
+#div1:hover{
+    color:  blue;
+    background-color:white;
+    border: 1px solid white;
+}
+#div2{
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+}
+#div2:hover{
+    color:  blue;
+    background-color:white;
+    border: 1px solid white;
+}
+#div3{
+    color: blue;
+    background-color: white;
+    border: 1px solid black;
+}
+#div4{
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+}
+#div4:hover{
+    color:  blue;
+    background-color:white;
+}
+#gg{
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: 300px;
+    border: 2px solid black;
+}
+#gg:hover{
+    box-shadow: 4px 4px rgb(92, 92, 85); 
+}
+#div5{
+
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 5px;
+    text-align: center;
+    height: 50px;
+}
+#div5:hover{
+    background-color: white;
+    color: blue;
+}
+ /*md*/
+@media (max-width: 1100px) and (min-width: 768px) {
+    #gg{
+        margin-left: 150px;
+    }
+}
+ /*s*/
+@media (min-width: 576px) and (max-width: 767px){
+    #gg{
+        margin-left: auto;
+        margin-bottom: 50px;
+        width: 500px;
+    }
+    #div1, #div2{
+        border: 0px;
+        margin: 0;
+    }
+    #a2{
+        position: relative;
+        bottom: 5px;
+    }
+    #div4{
+        margin-top: 5px;
+    }
+} 
+ /*xs*/
+@media (max-width: 766px)
+ {
+    #gg{
+        margin-left: auto;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    #div1, #div2{
+        border: 0px;
+        margin: 0;
+    }
+    #a2{
+        position: relative;
+        bottom: 50px;
+    }
+    #div4{
+        margin-top: 5px;
+    }
+}
