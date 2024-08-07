@@ -10,7 +10,7 @@ div{
 }
 #body{
     font-family: Arial, Helvetica, sans-serif;
-     background-color:rgba(85, 85, 85, 0.559);
+     background-color: white;
 }
  #a2{
     text-decoration: none;
@@ -38,18 +38,19 @@ div{
 
 #div1:hover{
     color:  blue;
-    background-color:white;
-    border: 1px solid white;
+    background-color: transparent;
+    border: 1px solid transparent;
 }
 #div2{
     color: white;
     background-color: blue;
     border: 1px solid black;
+    margin-left: 300px;
 }
 #div2:hover{
     color:  blue;
-    background-color:white;
-    border: 1px solid white;
+    background-color: transparent;
+    border: 1px solid transparent;
 }
 #div3{
     color: blue;
@@ -57,13 +58,24 @@ div{
     border: 1px solid black;
 }
 #div4{
-    color: white;
     background-color: blue;
-    border: 1px solid black;
+    color: white;
 }
 #div4:hover{
     color:  blue;
-    background-color:white;
+    background-color: transparent;
+}
+#div32{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    margin-right: 210px;
+    margin-left: 25px;
+}
+#div32:hover{
+    color:  blue;
+    background-color: transparent;
+    border: 1px solid transparent;
 }
 #gg{
     text-align: center;
@@ -76,24 +88,45 @@ div{
     box-shadow: 4px 4px rgb(92, 92, 85); 
 }
 #div5{
-
-    color: white;
-    background-color: blue;
-    border: 2px solid black;
     display: block;
-    text-transform: uppercase;
-    margin-top: 5px;
-    text-align: center;
-    height: 50px;
+    border: 2px solid black;
 }
 #div5:hover{
-    background-color: white;
-    color: blue;
+    box-shadow: 2px 2px grey;
 }
+#div6{
+    display: block;
+    position: absolute;
+    top: 70px;
+    right: 882px;
+    color: white;
+    background-color: black;
+    opacity: .8;
+    width: 253px;
+}
+
  /*md*/
-@media (max-width: 1100px) and (min-width: 768px) {
+@media (max-width: 992px) and (min-width: 768px) {
     #gg{
         margin-left: 150px;
+    }
+    #div1, #div2,#div32{
+        background-color: transparent;
+            margin: 0px;
+            border: 0px;
+            color: black;
+        }
+        #div1:hover, #div2:hover,#div32:hover{
+            background-color: transparent;
+            margin: 0px;
+            border: 0px;
+        }
+    #div4{
+        margin-top: 5px;
+    }
+    #div3{
+        width: 200px;
+        margin-top: 20px;
     }
 }
  /*s*/
@@ -103,35 +136,49 @@ div{
         margin-bottom: 50px;
         width: 500px;
     }
-    #div1, #div2{
-        border: 0px;
-        margin: 0;
-    }
-    #a2{
-        position: relative;
-        bottom: 5px;
-    }
+    #div1, #div2,#div32{
+        background-color: transparent;
+            margin: 0px;
+            border: 0px;
+            color: black;
+        }
+        #div1:hover, #div2:hover,#div32:hover{
+            background-color: transparent;
+            margin: 0px;
+            border: 0px;
+        }
     #div4{
         margin-top: 5px;
     }
+    #div3{
+        width: 200px;
+        margin-top: 20px;
+    }
 } 
  /*xs*/
-@media (max-width: 766px)
+@media (max-width: 575px)
  {
     #gg{
         margin-left: auto;
         margin-bottom: 50px;
         width: 300px;
     }
-    #div1, #div2{
+    #div1, #div2,#div32{
+    background-color: transparent;
+        margin: 0px;
         border: 0px;
-        margin: 0;
+        color: black;
     }
-    #a2{
-        position: relative;
-        bottom: 50px;
+    #div1:hover, #div2:hover,#div32:hover{
+        background-color: transparent;
+        margin: 0px;
+        border: 0px;
     }
     #div4{
         margin-top: 5px;
+    }
+    #div3{
+        width: 200px;
+        margin-top: 20px;
     }
 }
