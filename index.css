@@ -1,3 +1,4 @@
+
 div{
     display: inline;
 }
@@ -92,7 +93,6 @@ div{
     width: 254px;
     display: block;
     margin-left: 13px;
-    height: 76x;
 }
 #div5:hover{
     box-shadow: 2px 2px grey;
@@ -150,6 +150,9 @@ div{
 }
  /*s*/
 @media (min-width: 576.1px) and (max-width: 767.9px){
+    #div5{
+        height: 77.5px;
+    }
     #gg{
         margin-left: auto;
         margin-bottom: 50px;
@@ -210,4 +213,7 @@ div{
     #btn{
         margin-right: 3px;
       }
+      #div5{
+        height: 78px;
+    }
 }
