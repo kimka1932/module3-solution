@@ -45,7 +45,7 @@ div{
     color: white;
     background-color: blue;
     border: 1px solid black;
-    margin-left: 300px;
+    margin-left: -70px;
 }
 #div2:hover{
     color:  blue;
@@ -88,8 +88,10 @@ div{
     box-shadow: 4px 4px rgb(92, 92, 85); 
 }
 #div5{
-    display: block;
     border: 2px solid black;
+    width: 254px;
+    display: block;
+    margin-left: 13px;
 }
 #div5:hover{
     box-shadow: 2px 2px grey;
@@ -99,15 +101,27 @@ div{
     position: relative;
     /*top: 70px;*/
     left: 13px;
-    bottom: 25px;
+    bottom: 50px;
     color: white;
     background-color: black;
     opacity: .8;
-    width: 251px;
+    width: 254px;
 }
-
+.navbar {
+    background-color: white !important;
+  }
+  #img2{
+    width: 250.5px;
+    height: 73px;
+  }
+  #btn{
+    margin-right: 25px;
+  }
+  #btn:hover{
+    background-color: rgb(220, 211, 211);
+  }
  /*md*/
-@media (max-width: 992px) and (min-width: 768px) {
+@media (max-width: 992.9px) and (min-width: 768.1px) {
     #gg{
         margin-left: 150px;
     }
@@ -116,6 +130,7 @@ div{
             margin: 0px;
             border: 0px;
             color: black;
+            text-align: center;
         }
         #div1:hover, #div2:hover,#div32:hover{
             background-color: transparent;
@@ -124,14 +139,16 @@ div{
         }
     #div4{
         margin-top: 5px;
+        margin-left: 10px;
     }
     #div3{
         width: 200px;
         margin-top: 20px;
+        margin-left: 10px;
     }
 }
  /*s*/
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 576.1px) and (max-width: 767.9px){
     #gg{
         margin-left: auto;
         margin-bottom: 50px;
@@ -142,6 +159,7 @@ div{
             margin: 0px;
             border: 0px;
             color: black;
+            text-align: center;
         }
         #div1:hover, #div2:hover,#div32:hover{
             background-color: transparent;
@@ -150,14 +168,16 @@ div{
         }
     #div4{
         margin-top: 5px;
+        margin-left: 10px;
     }
     #div3{
         width: 200px;
-        margin-top: 20px;
+        margin-top: 0px;
+        margin-left: 10px;
     }
 } 
  /*xs*/
-@media (max-width: 575px)
+@media (max-width: 575.9px)
  {
     #gg{
         margin-left: auto;
@@ -169,17 +189,24 @@ div{
         margin: 0px;
         border: 0px;
         color: black;
+        margin-left: 10px;
     }
     #div1:hover, #div2:hover,#div32:hover{
         background-color: transparent;
         margin: 0px;
         border: 0px;
+        margin-left: 2px;
     }
     #div4{
         margin-top: 5px;
+        margin-left: 10px;
     }
     #div3{
         width: 200px;
         margin-top: 20px;
+        margin-left: 10px;
     }
+    #btn{
+        margin-right: 3px;
+      }
 }
